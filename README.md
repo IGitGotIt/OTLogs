@@ -22,11 +22,11 @@ The above code will spew lots of logs. You can always copy paste these logs from
 
 Sometimes you want something extra like:
 1. Real time logs which would filter out only sdp fields/value or say a `particular` sdp field or value and compare those fields to a saved instance of the previous session which you just disconnected from your app.
-2. You want to have emoji demaracations in the log to browse them easily.
-3. You want to have a lifecycle flow in your logs - say a peer connection start to finish. The current logs will give you this information but you don't know what to look for. You can also filter by streamID. 
-4. You want to do a regex serach
+2. You want to have emoji demarcations in the console log to browse them easily.
+3. You want to have a lifecycle flow in your logs - say a peer connection start to finish. The current logs will give you this information but you don't know what to look for. Then later on you want to filter by streamID. 
+4. You want to do a regex search.
 5. You want to add the videoSentBytes or want a list of values in a csv format, for a particular stream.
-6. You want the logs to be sent to a server.
+6. You want the logs to be sent to a server on a failure.
 
 and so on....
 
@@ -41,7 +41,7 @@ We created a facade called Logger which you invoke as follows:
 myLog = [Logger sharedInstance];
 ```
 
-The Logger inteface is as follows:
+The Logger interface is as follows:
 
 ```
 @interface Logger : NSObject
