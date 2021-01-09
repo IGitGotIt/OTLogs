@@ -31,7 +31,7 @@ Sometimes you want something extra like:
 and so on....
 
 This is just a project to get started for power debugging of your app. 
-You also need the ability to store the logs in a file, on a server etc. 
+
 
 # So what we did:
 
