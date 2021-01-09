@@ -65,8 +65,19 @@ Same sample output:
 
 Output with search string TURN:
 ```
-2021-01-08 16:39:25.898695-0800 TestApp[13522:4997705] LOGS found for turn: [DEBUG] otk_http.c:202 - body_cb[http_parser *p=0x7facfc81d610,otk_http_connection* http_conn=0x7facfc81d600,const char *buf=[{"properties":{"p2p":{"preference":{"value":"disabled"}},"reconnection":true,"renegotiation":true,"peerRegeneration":true,"h264":false,"vp9":false,"vp8":true,"priorityVideoCodec":"vp8","clientLogging":true,"clientCandidates":"all","aes256":false,"facetimeEncoder":false},"session_id":"1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4","project_id":"100","partner_id":"100","create_dt":"1607984111261","session_status":"INFLIGHT","status_invalid":null,"media_server_hostname":"mantis003-dev.tokbox.com","messaging_server_url":"mantis003-dev.tokbox.com","messaging_url":"wss://mantis003-dev.tokbox.com:443/rumorwebsocketsv2","symphony_address":"symphony.mantis003-dev.tokbox.com","ice_server":"turn002-dev.tokbox.com","session_segment_id":"67d77cc2-fe95-4e4e-a56c-24d65afa675a","ice_servers":[{"url":"turn:54.68.140.100:3478?transport=udp","username":"1610239164:1.1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4.47D6E026-8C3B-486B-99E1-D245A5C6D002","credential":"U9xgbNYyLDqfYGQ9PDmIRjZv950="},{"url":"stun:54.68.140.100:3478","username":null,"credential":null},{"url":"turn:54.68.140.100:443?transport=tcp","username":"1610239164:1.1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4.47D6E026-8C3B-486B-99E1-D245A5C6D002","credential":"U9xgbNYyLDqfYGQ9PDmIRjZv950="},{"url":"turns:turn002-dev.tokbox.com:443?transport=tcp","username":"1610239164:1.1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4.47D6E026-8C3B-486B-99E1-D245A5C6D002","credential":"U9xgbNYyLDqfYGQ9PDmIRjZv950="}],"ice_credential_expiration":86100}],size_t len=1584]
-2021-01-08 16:39:25.900811-0800 TestApp[13522:4997705] LOGS found for turn: [LOG] rumor_message_v1.c:133 - [RUMOR] INBOUND-00000003 PAYLOAD: {"content":{"iceServers":[{"url":"turn:54.68.140.100:3478?transport=udp","credential":"lEz+/npkW4hM2JuM8hEmqgcbPKk=","username":"1610230472:1.1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4.CEA73BB2-2B13-463A-9568-4097FA336559.B8B8BC87-9199-4EF3-B57B-AA6839FE7DED"},{"url":"stun:54.68.140.100:3478","credential":null,"username":null},{"url":"turn:54.68.140.100:443?transport=tcp","credential":"lEz+/npkW4hM2JuM8hEmqgcbPKk=","username":"1610230472:1.1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4.CEA73BB2-2B13-463A-9568-4097FA336559.B8B8BC87-9199-4EF3-B57B-AA6839FE7DED"},{"url":"turns:turn002-dev.tokbox.com:443?transport=tcp","credential":"lEz+/npkW4hM2JuM8hEmqgcbPKk=","username":"1610230472:1.1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4.CEA73BB2-2B13-463A-9568-4097FA336559.B8B8BC87-9199-4EF3-B57B-AA6839FE7DED"}]}}
+2021-01-08 16:39:25.898695-0800 TestApp[13522:4997705] LOGS found for turn: 
+[DEBUG] otk_http.c:202 - body_cb[http_parser *p=0x7facfc81d610,otk_http_connection* http_conn=0x7facfc81d600,
+const char *buf=[{"properties":{"p2p":{"preference":{"value":"disabled"}},"reconnection":true,"renegotiation":true,"peerRegeneration":true,"h264":false,"vp9":false,"vp8":true,
+"priorityVideoCodec":"vp8","clientLogging":true,"clientCandidates":"all","aes256":false,"facetimeEncoder":false},"session_id":"1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4","project_id":"100","partner_id":"100",
+"create_dt":"1607984111261","session_status":"INFLIGHT","status_invalid":null,
+"media_server_hostname":"mantis003-dev.tokbox.com","messaging_server_url":"mantis003-dev.tokbox.com",
+"messaging_url":"wss://mantis003-dev.tokbox.com:443/rumorwebsocketsv2","symphony_address":"symphony.mantis003-dev.tokbox.com",
+"ice_server":"turn002-dev.tokbox.com","session_segment_id":"67d77cc2-fe95-4e4e-a56c-24d65afa675a",
+"ice_servers":[{"url":"turn:54.68.140.100:3478?transport=udp","username":"1610239164:1.1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4.47D6E026-8C3B-486B-99E1-D245A5C6D002","credential":"U9xgbNYyLDqfYGQ9PDmIRjZv950="},
+{"url":"stun:54.68.140.100:3478","username":null,"credential":null},
+{"url":"turn:54.68.140.100:443?transport=tcp","username":"1610239164:1.1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4.47D6E026-8C3B-486B-99E1-D245A5C6D002","credential":"U9xgbNYyLDqfYGQ9PDmIRjZv950="},
+{"url":"turns:turn002-dev.tokbox.com:443?transport=tcp","username":"1610239164:1.1_MX4xMDB-fjE2MDc5ODQxMTEyNjF-QnNaQmdpRVIwV1ZpSG5aa2puY053U2FEfn4.47D6E026-8C3B-486B-99E1-D245A5C6D002","credential":"U9xgbNYyLDqfYGQ9PDmIRjZv950="}],"ice_credential_expiration":86100}],size_t len=1584]
+
 ```
 
 2. Get peer connection timing logs for Subscribers only
@@ -76,18 +87,30 @@ Output with search string TURN:
 ```
 Peer connection only Output:
 ```
-2021-01-08 17:59:25.858945-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:2566 - OT_TIMING: PUBLISHER-INIT-STARTED 0x7fbb39d0b120 NULL T=1610157565007
-2021-01-08 17:59:25.859148-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:2708 - OT_TIMING: PUBLISHER-INIT-COMPLETED 0x7fbb39d0b120 NULL T=1610157565011
-2021-01-08 17:59:25.859317-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:1925 - OT_TIMING: PUBLISHER-GENERATEOFFERREQUESTRECEIVED 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565310
-2021-01-08 17:59:25.859483-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:1000 - OT_TIMING: PUBLISHER-SENDOFFER-SETLOCALDESCRIPTION 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565321
-2021-01-08 17:59:25.859617-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565322
-2021-01-08 17:59:25.859732-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565323
-2021-01-08 17:59:25.859831-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565323
-2021-01-08 17:59:25.859934-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565323
-2021-01-08 17:59:25.860059-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565324
-2021-01-08 17:59:25.860154-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565324
-2021-01-08 17:59:25.860260-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565365
-2021-01-08 17:59:25.860349-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565366
+2021-01-08 17:59:25.858945-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:2566 - 
+OT_TIMING: PUBLISHER-INIT-STARTED 0x7fbb39d0b120 NULL T=1610157565007
+2021-01-08 17:59:25.859148-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:2708 - 
+OT_TIMING: PUBLISHER-INIT-COMPLETED 0x7fbb39d0b120 NULL T=1610157565011
+2021-01-08 17:59:25.859317-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:1925 -
+OT_TIMING: PUBLISHER-GENERATEOFFERREQUESTRECEIVED 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565310
+2021-01-08 17:59:25.859483-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:1000 - 
+OT_TIMING: PUBLISHER-SENDOFFER-SETLOCALDESCRIPTION 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565321
+2021-01-08 17:59:25.859617-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - 
+OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565322
+2021-01-08 17:59:25.859732-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - 
+OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565323
+2021-01-08 17:59:25.859831-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - 
+OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565323
+2021-01-08 17:59:25.859934-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - 
+OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565323
+2021-01-08 17:59:25.860059-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - 
+OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565324
+2021-01-08 17:59:25.860154-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - 
+OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565324
+2021-01-08 17:59:25.860260-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - 
+OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565365
+2021-01-08 17:59:25.860349-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:934 - 
+OT_TIMING: PUBLISHER-SENDICECANDIDATE 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565366
 2021-01-08 17:59:25.860443-0800 TestApp[14789:5036096] LOGS PEER(Pub): [DEBUG] otk_publisher_private.cpp:1700 - OT_TIMING: PUBLISHER-ANSWERPROCESSED-REMOTEDESCSET 0x7fbb39d0b120 DADAA0F2-1C92-495B-BCE4-6B76E7B16944 T=1610157565617
 ```
 
